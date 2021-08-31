@@ -1,0 +1,150 @@
+.topnav{
+    color:blanchedalmond;
+    background-color: #141c3a;
+    padding: 10px;
+    position: fixed;
+    width: 99%;
+    top: 0;
+}
+
+.topnav a{
+    color:whitesmoke;
+    float: left;
+}
+
+.topnav .icon {
+
+    display: none;
+  
+}
+
+/* When the screen is less than 600 pixels wide, hide all links. Show the iconthat should open and close the nav (.icon) */
+
+@media only screen and (max-width: 600px) {
+
+    .topnav a {display: none;}
+  
+    .topnav a.icon {
+  
+      float: right;
+  
+      display: block;
+  
+    }
+  
+}
+
+/* When the screen is less than 600 pixels wide, hide all links. Show the iconthat should open and close the nav (.icon) */
+
+@media only screen and (max-width: 600px) {
+
+    .topnav a {display: none;}
+  
+    .topnav a.icon {
+  
+      float: right;
+  
+      display: block;
+  
+    }
+  
+}
+
+header{
+    margin-top: 100px;
+}
+
+main{
+    margin-top: 10px;
+
+}
+main p{
+    font-family: verdana; 
+    font-size: 20px;
+}
+
+
+body{
+    background-color: lightgrey;
+}
+
+h1{
+    font-family: Garamond;
+    text-align: center;
+}
+
+h2{
+color: blue;
+font-family: Arial;
+}
+p{
+    color: bl;
+    font-family: 'Times New Roman';
+    font-size: 12px;
+    padding: 20px;
+}
+
+.heading {
+    color: teal;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+#about{
+    font-family: cursive;  
+    text-transform: capitalize;
+}
+
+#aboutsection{
+    padding: 100px;
+}
+
+h2.contactform{
+    font-family: bold;
+}
+
+.list li{
+    color: green;
+}
+
+body{
+    font-family: Arial;
+}
+
+figure.picture{
+    text-align: center;
+}
+
+#contactform{
+    background-color: #141c3a;
+    color: white;
+    padding: 10px 20px;
+}
+h2.contactform {
+    color: white;
+}
+
+table, th ,td{
+    border: 2px solid #141c3a;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+img{
+    border-radius: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#skillsection{
+    column-count: 3;
+    padding: 20px;
+    column-fill:initial ;
+}
+
+#accomplishementssection{
+    padding: 30px, 30px;
+}

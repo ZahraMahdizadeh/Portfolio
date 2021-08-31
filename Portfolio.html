@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+    <head><link href="./style.css" type="text/css" rel="stylesheet"></head>
+    <head>
+        <title>
+            Zahra Mahdizadeh's Portfolio
+        </title>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+        
+    
+    </head>
+    
+    <body>
+        <header>
+
+            <nav class="topnav" id="portfolioTopnav">
+                <table>
+                    <!--these are the links to the same page, specified by ids-->
+                   <tr> 
+                        <td><a href="javascript:void(0);" class="icon" onclick="openMenu" ><i class="fa fa-bars"></i></a></td>
+                        <td> <a href="#aboutsection"> About</a> </td>
+                        <td><a href="#skillsection"> Skills</a> </td>
+                        <td><a href="#accomplishementssection"> Accomplishments</a> </td>
+                        <td><a href="#contactsection"> Contact</a> </td>
+                        <td> <a href="#bottom">Bottom</a> </td>
+                    </tr>
+                </table>
+
+            </nav>
+                          
+            <h1> Zahra Mahdizadeh </h1>
+
+        </header>
+
+
+        <main>
+                        
+            <div id="aboutsection">
+                <figure class="picture">
+                    <img src="Zahra.jpg"width="200" height="200" alt="Zahra's pic"/>
+                    <br>
+                    <a href="Zahra.jpg" target="_blank"> Picture </a>
+                </figure>
+        
+        
+                <h2 class="heading uppercase" id="about" id="heading"> About: </h2>
+                <p>I am a PhD student at the <strong>Queensland University of Technology</strong> in Australia. My research is focused on numerical simulation of a particle laden flow inside a chemical reactor which is using in mining process.</p>
+        
+            </div>
+        </main>
+        
+        
+        <!--skills section-->
+        <h3 > Skills: </h3>
+
+        <div id="skillsection">
+
+            <h4>Research Skills:</h4>
+             <ul class="list">
+                <li>Report writing</li>
+                <li>Analysis of Data</li>
+                <li>Presenting</li>
+                
+                <br>
+            </ul>
+
+            <h4>Interpersonal Skills:</h4>
+
+            <ul class="list">
+                <li>Responsibility</li>
+                <li>team work</li>
+                <li>Active listening</li>
+                <li></li>
+            </ul>
+
+            <h4>Technical Skills:</h4>
+
+                <ul class="list">
+                    <li>programming language: C++, HTML, MatLab</li>
+                    <li>ANSYS Fluent, OpenFOAM, LIGGGHTS, CFDEM</li>
+                    <li>ANSYS Mesh, ICEM</li>
+                    <li>AutodeskInventor</li>
+                </ul>
+        </div>
+
+        <!--Accomplishment section-->
+        <div id="accomplishementssection">
+            <h2> Accomplishments: </h2>
+            <table>
+                <tr>
+                    <td scope="col" >Publications</td>
+
+                    <td scope="col">Thermodynamic investigation of a semi-open air, humidification dehumidification desalination system using air and water heaters</td>
+            
+                </tr>
+
+                <tr> <!--table row!-->
+                    <td>Awards</td>
+                    <td>QUTPRT winner</td>
+                </tr>
+
+                <tr>
+                    <td> Presentations</td>
+                    <td>21st International Mechanical Engineering Conference</td>
+                </tr>
+            
+            </table>
+        </div>
+
+        <h3>Coding Examples</h3>
+ <a href="quiz.html" target="_blank">Take the Portfolio Quiz!</a>
+
+        <!--link to Google Scholar-->
+        <div id="contactsection">
+            <h2> Contact: </h2>
+            
+            <h4>efafzahra.mehdizadehgohari@hdr.qut.edu.au</h4>
+            <a href="https://scholar.google.com/citations?user=fOS8mo8AAAAJ&hl=en&oi=sra" target="_blank" >Google Scholar</a>
+        </div>
+        <br>
+        
+
+        <!--contact section-->
+        <div id="contactform">
+            <form> 
+                <h2 class="contactform"> Contact:</h2>
+                <br>
+                <label for="name">*Name:</label>
+                <br>
+                <input type="text" name="name" required
+                value="e.g. John Smith">
+            
+                <br>
+                <br>
+            
+                <label for="message">*Leave your message below:</label>
+            
+                <br>
+            
+                <textarea id="message" name="message" required rows="5" cols="30">
+                </textarea>
+            
+                <br>
+                <br>
+            
+                <label for="email"> *Email Adress:</label>
+            
+                <br>
+            
+                <input type="text" id="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+            
+                <br>
+                <br>
+            
+                <label for="mobile">Mobile (optional)</label>
+            
+                <br>
+            
+                <input type="tel" name="mobile" pattern="[0-9]{10,16}">
+            
+                <br>
+                <br>
+            
+                <input type="submit" value="submit">
+            </form>
+        </div>
+        
+        <a href="#top">Top</a>
+
+        <script src="./nav.js"></script>
+    </body>
+</html>
